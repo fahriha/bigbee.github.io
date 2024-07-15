@@ -1,0 +1,59 @@
+{
+  "logo": "/images/logo.svg",
+  "items": [
+    {
+      "text": "Home",
+      "link": "/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Fitur",
+      "link": "/features/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Harga",
+      "link": "/pricing/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Tentang Kami",
+      "link": "/about/",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "text": "Support",
+      "link": "/blog/",
+      "enable_dropdown": true,
+      "dropdown": [
+        {
+          "dropdown_text": "All Articles",
+          "dropdown_link": "/blog"
+        },
+        {
+          "dropdown_text": "Marketing",
+          "dropdown_link": "/tags/marketing/"
+        },
+        {
+          "dropdown_text": "Technology",
+          "dropdown_link": "/tags/technology/"
+        }
+      ]
+    },
+    {
+      "text": "Kontak Kami",
+      "link": "/contact/",
+      "enable_dropdown": false,
+      "dropdown": []
+    }
+  ],
+  "enable_nav_btn": true,
+  "nav_btn": {
+    "text": "Daftar Sekarang",
+    "link": "/signup/"
+  }
+}
