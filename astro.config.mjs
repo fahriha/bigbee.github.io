@@ -4,6 +4,6 @@ import bookshop from '@bookshop/astro-bookshop';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://top-quail.cloudvent.net/",
+  site: "https://bigbee.github.io",
   integrations: [bookshop(), react()]
 });
