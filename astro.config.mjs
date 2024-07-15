@@ -6,4 +6,5 @@ import bookshop from '@bookshop/astro-bookshop';
 export default defineConfig({
   site: "https://bigbee.github.io",
   integrations: [bookshop(), react()]
+  base: 'my-repo',
 });
